@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <script defer src="./src/index.js"></script>
+    <title>Simple Task Lister</title>
+  </head>
+  <body>
+    <h1 id="title">Simple Task Lister</h1>
+
+    <ul id="task-container">
+      <!-- add tasks here -->
+    </ul>
+
+    <div id="task-display">
+
+      <h2 id="task-display-name">Task Name Goes Here</h2>
+      <h3 id="task-display-due-date">Task Due Date Goes Here</h3>
+
+    </div>
+
+    <form id="new-task-form">
+
+      <label>New Task: </label>
+      <input type="text" id="new-task-input">
+
+      <br>
+
+      <label>Due Date: </label>
+      <input type="text" id="new-due-date-input">
+
+      <input type="submit" value="Add New Task">
+
+    </form>
+
+  </body>
+</html>
